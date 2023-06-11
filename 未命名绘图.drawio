@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T07:31:50.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="21.3.7" etag="m9i4oPylbLUZ3KlyMUmD" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-11T07:47:27.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="i0MCx7qWFbYXKPefkw_t" version="21.3.7" type="github">
   <diagram name="第 1 页" id="eEgo0yLSxa-eOtAsQ8Sg">
-    <mxGraphModel>
+    <mxGraphModel dx="660" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-4" target="UkfWItvqZy_9ZK4fLWkx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-4" value="定义基本参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-5" target="UkfWItvqZy_9ZK4fLWkx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-5" value="产生二进制随机码&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-6" target="UkfWItvqZy_9ZK4fLWkx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-6" value="转换成双极性相对码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-7" target="UkfWItvqZy_9ZK4fLWkx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-7" value="提取I、Q两路码元" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-8" target="UkfWItvqZy_9ZK4fLWkx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-8" value="进行MSK调制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-9" target="UkfWItvqZy_9ZK4fLWkx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-9" value="相干解调" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-10" target="UkfWItvqZy_9ZK4fLWkx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-10" value="滤波器处理&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-11" target="UkfWItvqZy_9ZK4fLWkx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-11" value="抽样判决" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UkfWItvqZy_9ZK4fLWkx-12" target="UkfWItvqZy_9ZK4fLWkx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-12" value="将两路码元转成相对码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkfWItvqZy_9ZK4fLWkx-13" value="计算误码率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
